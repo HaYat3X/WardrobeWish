@@ -5,7 +5,6 @@ class CreateItems < ActiveRecord::Migration[7.1]
       t.string :image, null: false
       t.string :brand
       t.integer :price, null: false
-      t.string :color
       t.integer :purchas_flag
       t.timestamps
     end

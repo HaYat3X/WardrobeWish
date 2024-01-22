@@ -16,7 +16,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_22_130653) do
     t.string "image", null: false
     t.string "brand"
     t.integer "price", null: false
-    t.string "color"
     t.integer "purchas_flag"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
